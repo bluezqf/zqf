@@ -36,9 +36,8 @@
         </provider>
 
         <activity android:name=".Activity.MainActivity" />
-        <activity android:name=".Activity.Register_Student">
-
-        </activity>
+        <activity android:name=".Activity.Register_Student"></activity>
+        <activity android:name=".Activity.Register_Teacher"></activity>
     </application>
 
 </manifest>

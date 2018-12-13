@@ -50,12 +50,12 @@ public class TeacherDAO {
     }
     /**
      * 查找老师信息
-     * @param phone
+     * @param account
      */
-    public Teacher find(String phone){
+    public Teacher find(String account){
         db = helper.getWritableDatabase();          //初始化SQLiteDatabase对象
-        Cursor  cursor = db.rawQuery("select * where t_telnumber = ?",new String[]
-                {String.valueOf(phone)});    //根据电话号码查找老师信息，并储存在Cursor类中
+        Cursor cursor = db.rawQuery("select * where t_loginid = ?",new String[]
+                {String.valueOf(account)});    //根据账号查找老师信息，并储存在Cursor类中
         if (cursor.moveToNext())                   //遍历查找到的老师信息
         {
             //将遍历的老师信息存储到Teacher中

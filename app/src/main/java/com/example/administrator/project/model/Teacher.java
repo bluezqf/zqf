@@ -1,7 +1,5 @@
 package com.example.administrator.project.model;
 
-import android.database.Cursor;
-
 public class Teacher {                //老师信息实体类
 
     private int t_id;                   //存储老师id
@@ -18,7 +16,7 @@ public class Teacher {                //老师信息实体类
     private String t_photo;             //存储老师头像
     private String t_telnumber;         //存储老师电话号码
     //定义有参构造函数，用来初始化老师信息实体类中的各个字段    //为属性赋值
-    public Teacher(int t_id, Cursor cursor){                   //默认构造函数
+    public Teacher(){                   //默认构造函数
         super();
     }
 
@@ -26,7 +24,6 @@ public class Teacher {                //老师信息实体类
                    String t_subject,String t_salary,String t_edu_experience,String t_major,
                    String t_self_introduction,String t_photo,String t_telnumber){
 
-        super();
         this.t_id = t_id;               //为老师id赋值
         this.t_loginid = t_loginid;
         this.t_name = t_name;

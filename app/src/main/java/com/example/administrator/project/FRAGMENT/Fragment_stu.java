@@ -56,6 +56,7 @@ public class Fragment_stu extends Fragment {
 
                 Account = getActivity().findViewById(R.id.fra_stu_account);
                 Password = getActivity().findViewById(R.id.fra_stu_password);
+
                 account = Account.getText().toString();
                 password = Password.getText().toString();
 
