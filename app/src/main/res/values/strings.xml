@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">学霸教教我</string>
+    <string name="home_page">首页</string>
+    <string name="teacher">找学霸</string>
+    <string name="student">找学生</string>
+    <string name="chat">发帖</string>
+    <string name="mine">我的</string>
+    <string name="a">上一个</string>
+    <string name="b">下一个</string>
+    <string name="c">自动播放</string>
+    <string name="my_name">我的昵称</string>
+    <string name="collect">我的收藏</string>
+    <string name="authentication">实名认证</string>
+    <string name="issue">我的发布</string>
+    <string name="apply">我的申请</string>
+    <string name="use_help">使用帮助</string>
+    <string name="about_us">关于我们</string>
+    <string name="nanchang">南昌</string>
+    <string name="tip1">全部课程</string>
+    <string name="tip2">全部学校</string>
+    <string name="auto">自己填</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c60616</color>
+    <color name="colorPrimaryDark">#c60616</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#ffffff</color>
+    <color name="text">#c60616</color>
+    <color name="text1">#948f8f</color>
+    <color name="text2">#eca985</color>
+    <color name="text3">#eddfca</color>
+    <color name="blue">#4a9eff</color>
+    <color name="black">#000000</color>
+
+
+    <color name="fragment2_1">#f2e4cf</color>
+    <color name="fragment2_2">#c60616</color>
+
+
+</resources>
