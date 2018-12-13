@@ -92,6 +92,7 @@ public class Register_Teacher extends AppCompatActivity implements View.OnClickL
                 else if (teacherDAO.find(account) != null){
                     Toast.makeText(Register_Teacher.this,"该账号已经被注册过了",Toast.LENGTH_SHORT).show();
                 }
+
                 else {
                     Teacher teacher = new Teacher(teacherDAO.getMaxId()+1,account,tea_name,password,null,
                             null,null,null,null,null,

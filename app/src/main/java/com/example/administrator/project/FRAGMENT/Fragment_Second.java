@@ -32,8 +32,8 @@ public class Fragment_Second extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         initTeas();         //初始化老师数据
-        TeaAdapter adapter = new TeaAdapter(getActivity(),R.layout.simple_item,teaList);
-        ListView listView = getActivity().findViewById(R.id.list_view);
+        TeaAdapter adapter = new TeaAdapter(getActivity(),R.layout.simple_tea_item,teaList);
+        ListView listView = getActivity().findViewById(R.id.list_view_second);
         listView.setAdapter(adapter);
 
     }

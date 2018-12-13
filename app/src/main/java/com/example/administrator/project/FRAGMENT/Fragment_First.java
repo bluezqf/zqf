@@ -76,7 +76,7 @@ public class Fragment_First extends Fragment {
         loopPager.setAdapter(adapter_loop_image);
 
         initTeas();         //初始化老师数据
-        TeaAdapter adapter = new TeaAdapter(getActivity(),R.layout.simple_item,teaList);
+        TeaAdapter adapter = new TeaAdapter(getActivity(),R.layout.simple_tea_item,teaList);
         ListView listView = getActivity().findViewById(R.id.my_list);
         listView.setAdapter(adapter);
 

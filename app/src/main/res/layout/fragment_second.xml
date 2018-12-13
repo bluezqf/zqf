@@ -17,17 +17,15 @@
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:entries="@array/books"
-                android:prompt="@string/tip1" />
+                android:entries="@array/books" />
             <Spinner
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:entries="@array/professionals"
-                android:prompt="@string/tip2"/>
+                android:entries="@array/professionals" />
         </LinearLayout>
         <ListView
-            android:id="@+id/list_view"
+            android:id="@+id/list_view_second"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </LinearLayout>

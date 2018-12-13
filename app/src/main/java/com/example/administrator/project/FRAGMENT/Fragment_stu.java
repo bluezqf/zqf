@@ -76,8 +76,8 @@ public class Fragment_stu extends Fragment {
                 }
                 else {
                     Toast.makeText(getActivity(),"登入成功",Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(getActivity(),Test1Activity.class);
-                    startActivity(intent);
+                    Intent intent1 = new Intent(getActivity(),Test1Activity.class);
+                    startActivity(intent1);
                 }
 
             }
